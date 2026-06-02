@@ -1,12 +1,12 @@
 
  // ---------- PRODUCT DATABASE ----------
     const products = [
-        { id: 1, name: "cross shoulder bag dbrown", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagdbrown.jpg" },
-        { id: 2, name: "cross shoulder bag beige", brand: "BennieB", price: 153, originalPrice: 200, discount: "15%", image: "productImages/crossshoulderbagbeige.jpg" },
-        { id: 3, name: "cross shoulder bag print", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagprint.jpg" },
-        { id: 4, name: "cross shoulder bag red", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagred.jpg" },
-        { id: 5, name: "cross shoulder bag brownb ", brand: "BennieB", price: 200, originalPrice: 220, discount: "9%", image: "productImages/crossshoulderbagbrownb.jpg" },
-        { id: 6, name: "cross shoulder bag black", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagblack.jpg" }
+        { id: 1, name: "cross shoulder bag dbrown", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagdbrown.jpg" },
+        { id: 2, name: "cross shoulder bag beige", brand: "BennieB", price: 153, originalPrice: 200, discount: "15%", image: "ProductImages/crossshoulderbagbeige.jpg" },
+        { id: 3, name: "cross shoulder bag print", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagprint.jpg" },
+        { id: 4, name: "cross shoulder bag red", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagred.jpg" },
+        { id: 5, name: "cross shoulder bag brownb ", brand: "BennieB", price: 200, originalPrice: 220, discount: "9%", image: "ProductImages/crossshoulderbagbrownb.jpg" },
+        { id: 6, name: "cross shoulder bag black", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagblack.jpg" }
      ]
 
     // cart state: array of { id, name, price, image, quantity}
