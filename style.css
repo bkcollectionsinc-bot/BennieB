@@ -1,0 +1,153 @@
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+    body {
+            background-color: #faf9f6;
+    }
+
+        /* header style */
+    header {
+    background-color: rgb(195, 180, 180);;
+      /* background-color: #000000; */
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+           }
+
+header .Brand{
+color: rgb(17, 82, 82);
+
+}
+
+.Brand h1{
+font-size: 1.8rem;
+letter-spacing: 1px;
+}
+
+header .nav-main nav ul{
+list-style:none ;
+display: flex;
+margin-right:30px;
+
+}
+
+header .nav-main nav ul a{
+    color: rgb(17, 82, 82);
+}
+
+header h1 { margin: 0;
+font-size: 28px;
+    margin-left: 30px;
+
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size:  16px;
+    font-weight: bold;
+}
+
+a :hover{
+    color: white;
+}
+
+
+/* the Hero style */
+
+.hero {
+    background: linear-gradient(rgba(5, 81, 53, 0.2), rgba(127, 88, 10, 0.9)), url(Images/shoes\ 4.avif);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(104, 11, 11);
+    padding: 20px;
+}
+/*     
+    background-image:url(images/shoes\ 4.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:0;
+    padding:0;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    text-align:center; */
+
+
+/* 
+.hero_content{
+    text-align: center;
+    color: #fff;
+    padding: 100px 20% 0;
+    width: 900px; */
+
+
+
+.hero h2 {
+    font-size: 48px;
+    max-width: 800px;   
+}
+.hero p {
+    font-size: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.cta-btn {
+    background: rgb(132, 129, 129);
+    color: white;
+    padding: 15px  30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+  /* the services style */
+
+  .section h2{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(11, 75, 75);
+
+  }
+  .Service-Box h3{
+    color: rgb(11, 75, 75);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+  }
+.Service-Box p{
+    color: rgb(11, 75, 75);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.Service-Box p{
+    color: rgb(11, 75, 75);
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+}
+/* footer style */
+footer {
+background-color: rgb(195, 180, 180);
+color: rgb(11, 75, 75);
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
