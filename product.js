@@ -9,7 +9,7 @@
         { id: 6, name: "cross shoulder bag black", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagblack.jpg" }
      ]
 
-    // cart state: array of { id, name, price, image, quantity }
+    // cart state: array of { id, name, price, image, quantity}
     let cart = [];
     
     // Helper: save cart to localStorage
