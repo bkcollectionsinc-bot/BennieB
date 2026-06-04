@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
  
-Sitemap: https://github/sitemap.xml
+Sitemap: https://bkcollectionsinc-bot.github.io/BennieB/sitemap.xml
