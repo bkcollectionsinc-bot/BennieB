@@ -1,4 +1,4 @@
-User-agent: *
+User=agent: *
 Allow: /
  
 Sitemap: https://bkcollectionsinc-bot.github.io/BennieB/sitemap.xml
