@@ -64,7 +64,7 @@ a :hover{
 /* the Hero style */
 
 .hero {
-    background: linear-gradient(rgba(5, 81, 53, 0.2), rgba(127, 88, 10, 0.9)), url(Images/shoes\ 4.avif);
+   background:linear-gradient(rgb(14, 128, 58, 0.2),rgb(137, 224, 216, 0.9)), url(Images/Shoe1.avif);
     height: 70vh;
     display: flex;
     align-items: center;
