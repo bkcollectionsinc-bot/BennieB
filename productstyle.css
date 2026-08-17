@@ -9,7 +9,7 @@
         }
         /* Header */
         header {
-            background-color: #1e2a2e;
+            background-color: #cdd6d9;
             color: white;
             padding: 1rem 2rem;
             display: flex;
@@ -306,8 +306,8 @@
         .form-group input {
             width: 100%;
             padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 30px;
+            border: 1px solid #ccc;    
+            border-radius:30px;
         }
         .submit-btn {
             background-color: #1e2a2e;
@@ -319,7 +319,7 @@
             font-weight: bold;
         }
         .thank-you {
-            display: none;
+            display: none;  
             text-align: center;
             background: #d4edda;
             padding: 35px;
