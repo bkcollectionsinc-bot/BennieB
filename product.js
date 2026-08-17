@@ -1,18 +1,29 @@
 
  // ---------- PRODUCT DATABASE ----------
     const products = [
-        { id: 1, name: "cross shoulder bag dbrown", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagdbrown.jpg" },
-        { id: 2, name: "cross shoulder bag beige", brand: "BennieB", price: 153, originalPrice: 200, discount: "15%", image: "ProductImages/crossshoulderbagbeige.jpg" },
-        { id: 3, name: "cross shoulder bag print", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagprint.jpg" },
-        { id: 4, name: "cross shoulder bag red", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagred.jpg" },
-        { id: 5, name: "cross shoulder bag brownb ", brand: "BennieB", price: 200, originalPrice: 220, discount: "9%", image: "ProductImages/crossshoulderbagbrownb.jpg" },
-        { id: 6, name: "cross shoulder bag black", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "ProductImages/crossshoulderbagblack.jpg" }
-     ]
+        { id: 1, name: "cross shoulder bag dbrown", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagdbrown.jpg" },
+        { id: 2, name: "cross shoulder bag beige", brand: "BennieB", price: 153, originalPrice: 200, discount: "15%", image: "productImages/crossshoulderbagbeige.jpg" },
+        { id: 3, name: "cross shoulder bag print", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagprint.jpg" },
+        { id: 4, name: "cross shoulder bag red", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagred.jpg" },
+        { id: 5, name: "cross shoulder bag brownb ", brand: "BennieB", price: 200, originalPrice: 220, discount: "9%", image: "productImages/crossshoulderbagbrownb.jpg" },
+        { id: 6, name: "cross shoulder bag black", brand: "BennieB", price: 180, originalPrice: 200, discount: "10%", image: "productImages/crossshoulderbagblack.jpg" },
+        { id: 7, name: "BAGCO Black", brand: "BennieB", price: 450, image: "productImages/BAGCO Black.jpg"},
+        { id: 8, name: "BAGCO bag wine red", brand: "BennieB", price: 450, image:"productImages/BAGCO bag wine red.png"},
+        { id: 9, name: "BAGCO khaki(2)", brand: "BennieB", price: 450, image: "productImages/BAGCO khaki(2).jpg"},
+        { id: 10, name: "BAGCO Navy", brand: "BennieB", price: 450, image: "productImages/BAGCO Navy.jpg"},
+        { id: 11, name: "chrisbella black long purse", brand: "BennieB", price: 150, image: "productImages/chisbella black long purse.png"},
+            
+        
+
+
+    ];
 
     // cart state: array of { id, name, price, image, quantity}
     let cart = [];
-    
+
     // Helper: save cart to localStorage
+
+
     function saveCart() {
         localStorage.setItem('BennieB_cart', JSON.stringify(cart));
     }
