@@ -1,0 +1,109 @@
+/* subscriber ::selection */
+/* =========================*/
+
+#mc_embed_signup{
+    position:relative;
+    max-width:650px;
+    margin:auto;
+    /* background:rgba(255,255,255,.12); */
+    background:linear-gradient(135deg, rgb(162, 218, 238, 0.5),rgb(230, 205, 105, 0.5)),url("productImages/crossshoulderbagbrownb.jpg")center center/cover no-repeat;
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.25);
+    border-radius:25px;
+    padding:50px;
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.35);
+}
+
+#mc_embed_signup h2{
+    text-align:center;
+    color:#a79c97;
+    font-size:2.5rem;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+#mc_embed_signup .indicates-required{
+    text-align:center;
+    color:#9c7070;
+    margin-bottom:30px;
+}
+
+.mc-field-group{
+    width:100%;
+}
+
+.mc-field-group label{
+    display:block;
+    color:#b8b2b2;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.mc-field-group input{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:50px;
+    outline:none;
+    font-size:16px;
+    background:rgba(255,255,255,.95);
+    transition:.3s;
+}
+
+.mc-field-group input:focus{
+    box-shadow:0 0 20px rgba(255,255,255,.6);
+    transform:scale(1.02);
+}
+
+#mc-embedded-subscribe{
+    width:100%;
+    margin-top:25px;
+    padding:18px;
+    border:none;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#b08c8c;
+    background:linear-gradient(135deg,#1f8ef1,#005bea);
+    transition:.35s;
+}
+
+#mc-embedded-subscribe:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(0,91,234,.5);
+}
+
+#mce-success-response,
+#mce-error-response{
+    color:white;
+    text-align:center;
+    margin-top:20px;
+}
+
+.refferal_badge{
+    display:none;
+}
+
+.close-btn {
+position: absolute;
+top: 10px;
+right: 15px;
+cursor: pointer;
+font-size: 30px;
+font-weight: 500;
+
+}
+
+@media(max-width:768px){
+
+#mc_embed_signup{
+    padding:35px 25px;
+}
+
+#mc_embed_signup h2{
+    font-size:2rem;
+}
+
+}
