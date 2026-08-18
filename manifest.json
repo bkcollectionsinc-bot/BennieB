@@ -1,0 +1,45 @@
+{
+"name":"Bennieb enterprise",
+"short_name":"Bennieb",
+"description":"BennieB-your destination for stylish, affordable, and trendy ladies fashion accessories",
+"start_url":"https://bkcollectionsinc-bot.github.io/BennieB/",
+"scope":"/",
+"display": "standalone",
+"orientation": "portrait-primary",
+"theme_color":"#0f172a",
+"background_color": "#ffffff",
+"lang": "en",
+"dir": "ltr",
+"icons": [
+{
+ "src": "./Icons/android-chrome-192x192.png",
+ "sizes":"192x192",
+ "type":"image/png",
+ "purpose":"any"  
+},
+{
+ "src":"./Icons/android-chrome-512x512.png",
+ "sizes":"512x512",
+ "type":"image/png",
+ "purpose":"any"
+},
+{
+ "src":"./Icons/apple-touch-icon.png",
+ "sizes":"512x512",
+ "type":"image/png",
+ "purpose":"maskable"   
+},
+{
+ "src":"./Icons/favicon-16x16.png",
+ "sizes":"16x16",
+ "type":"image/png",
+ "purpose":"maskable"   
+},
+{
+ "src":"./Icons/favicon-32x32.png",
+ "sizes":"32x32",
+ "type":"image/png",
+ "purpose":"maskable"   
+}
+]
+}
