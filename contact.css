@@ -9,6 +9,8 @@
             background-color: #faf9f6;
         }
 
+
+
         /* Header */
         header {
             background-color: #cdd6d9;
@@ -41,23 +43,10 @@
             opacity: 0.8;
             text-decoration: underline;
         }
-    
-    
-    /* margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f7f7f7;
-            color: #333;
-            line-height: 1.6;
-        }
 
         /* Navigation */
         header {
-            background: #111;
+            background: #a09999;
             padding: 15px 7%;
             position: sticky;
             top: 0;
@@ -99,29 +88,27 @@
             color: #25d366;
         }
 
-        /* Hero */
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-                        url("images/");
-            background-size: cover;
-            background-position: center;
-            min-height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 40px 20px;
-        }
+    /* the Hero style */
 
-        .hero h1 {
+    .Hero{
+    background:linear-gradient(rgb(206, 65, 65, 0.9)), rgb(40, 40, 233. 0.9), url(Images/shoes4.avif) center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(104, 11, 11);
+    padding: 20px;
+}
+        
+    .Hero h1 {
             font-size: 48px;
             margin-bottom: 10px;
         }
 
-        .hero p {
+    .Hero p {
             font-size: 18px;
-        }
+        } 
 
         /* Contact Section */
         .contact-section {
@@ -363,33 +350,6 @@
     }
 }
 
-        /* footer {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 50px;
-        }
-
-        footer p {
-            margin: 5px 0;
-            color: #ccc;
-        }
-
-        .social-links {
-            margin: 15px 0;
-        }
-
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-
-        .social-links a:hover {
-            color: #25d366;
-        } */
-
         /* Mobile */
         @media (max-width: 768px) {
 
@@ -397,16 +357,15 @@
                 flex-direction: column;
                 gap: 15px;
             }
-
             .nav-links {
                 gap: 12px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
 
-            .hero h1 {
+            /* .hero h1 {
                 font-size: 36px;
-            }
+            } */
 
             .contact-container {
                 grid-template-columns: 1fr;
